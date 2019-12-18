@@ -13,7 +13,7 @@ const Earth = () => {
     // const texture = useMemo(() => new THREE.ImageUtils.loadTexture(url3));
     // const bump = useMemo(() => new THREE.ImageUtils.loadTexture(url1));
     const [bumpMap, specMap, normalMap] = useLoader(TextureLoader, [url1, url2, url3]);
-    useFrame(() => (ref.current.rotation.y -= 0.001))
+    useFrame(() => (ref.current.rotation.y -= 0.0005))
     return (
         
       <mesh
@@ -22,9 +22,9 @@ const Earth = () => {
         onPointerOver={e => console.log('hover')}
         onPointerOut={e => console.log('unhover')}>
         <sphereGeometry attach="geometry" args={[2, 64, 64]} />
-        <meshPhongMaterial attach='material' map={normalMap} bumpMap={bumpMap} bumpScale={0.05}  />
-        
+        <meshPhongMaterial attach='material' map={normalMap} bumpMap={bumpMap} bumpScale={0.1} specularMap={specMap}  />    
       </mesh>
+      
     )
 }
 

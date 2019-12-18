@@ -4,6 +4,7 @@ import * as THREE from 'three'
 
 import Background from '../../components/background/background.component';
 import Earth from '../../components/earth/earth.component';
+import Clouds from '../../components/earth/clouds.component';
 
 import './home.styles.scss'
 
@@ -19,8 +20,10 @@ const Home = () => {
           }} >
         <Suspense fallback={null}>
             <Earth />
+            <Clouds/>
         </Suspense> 
-                <pointLight intensity={3} position={[10, 10, 10]} />
+                <pointLight intensity={2} position={[10, 10, 10]} />
+                <spotLight intensity={.3} position={[-10, -10, -10]}/>
         </Canvas>
         </>
     )
