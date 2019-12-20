@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
-import { Redirect } from 'react-router-dom';
-import { createBrowserHistory } from 'history';
+import React from 'react';
 
 import './intro.styles.scss';
 
 const Intro = (props) => {
-
-    const history = createBrowserHistory();
      
     window.addEventListener('load', () => {
         let eles = document.getElementById(props.video);
@@ -19,10 +15,6 @@ const Intro = (props) => {
             props.setLanguage('lan-on');
         }
     })
-
-    const handleLanguage = () => {
-        return <Redirect to = '/home'/>
-    }
 
     return (
         <>
