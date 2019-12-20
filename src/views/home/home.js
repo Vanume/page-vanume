@@ -33,7 +33,6 @@ const Home = () => {
                 <Buildings url="/buildingFinal4.gltf" />
             </Suspense>
             <pointLight intensity={1} position={[20, 20, -20]} color="#38CDDC" />
-            {/* <spotLight intensity={.5} position={[-20, 10, 20]} color="#38CDDC" /> */}
         </Canvas>
         </>
     )
