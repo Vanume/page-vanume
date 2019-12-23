@@ -27,12 +27,26 @@ const options = {
   };
   
   const pages = [
-    "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/01.jpg",
-    "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/02.jpg",
-    "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/03.jpg",
-    "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/04.jpg",
-    "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/05.jpg",
-    "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/06.jpg"
+    "./catalogo/CATÁLOGO SM_Página_01.jpg",
+    "./catalogo/CATÁLOGO SM_Página_02.jpg",
+    "./catalogo/CATÁLOGO SM_Página_03.jpg",
+    "./catalogo/CATÁLOGO SM_Página_04.jpg",
+    "./catalogo/CATÁLOGO SM_Página_05.jpg",
+    "./catalogo/CATÁLOGO SM_Página_06.jpg",
+    "./catalogo/CATÁLOGO SM_Página_07.jpg",
+    "./catalogo/CATÁLOGO SM_Página_08.jpg",
+    "./catalogo/CATÁLOGO SM_Página_09.jpg",
+    "./catalogo/CATÁLOGO SM_Página_10.jpg",
+    "./catalogo/CATÁLOGO SM_Página_11.jpg",
+    "./catalogo/CATÁLOGO SM_Página_12.jpg",
+    "./catalogo/CATÁLOGO SM_Página_13.jpg",
+    "./catalogo/CATÁLOGO SM_Página_14.jpg",
+    "./catalogo/CATÁLOGO SM_Página_15.jpg",
+    "./catalogo/CATÁLOGO SM_Página_16.jpg",
+    "./catalogo/CATÁLOGO SM_Página_17.jpg",
+    "./catalogo/CATÁLOGO SM_Página_18.jpg",
+    "./catalogo/CATÁLOGO SM_Página_19.jpg",
+    "./catalogo/CATÁLOGO SM_Página_20.jpg"
   ];
 
 const Home = () => {
