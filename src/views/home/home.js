@@ -9,6 +9,8 @@ import Clouds from '../../components/earth/clouds.component';
 import Buildings from '../../components/buildings/buildings.component';
 import Magazine from '../../components/magazine/magazine.component';
 
+import Text from '../../components/earth/text.component';
+
 import './home.styles.scss';
 
 const options = {
